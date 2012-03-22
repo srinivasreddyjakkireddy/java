@@ -18,7 +18,9 @@ for(int j=0;j<=4;j++)
           secondlargest=largest;
             largest=a[j];
          }
-    }
+    if(secondlargest<a[j]&&largest!=a[j])
+          secondlargest=a[j];
+ }
 System.out.print(secondlargest);
             
            
